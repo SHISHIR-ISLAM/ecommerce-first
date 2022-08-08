@@ -1,0 +1,59 @@
+.header {
+  // home
+  &-home-top {
+    p {
+      padding: 1.3rem 0 0.5rem 0;
+    }
+  }
+}
+
+// section header
+.section {
+  &-header {
+    margin-bottom: 5rem;
+    h2 {
+      font-size: 3.5rem;
+      font-weight: bold;
+      color: $clr-heading;
+      margin: 0 !important;
+    }
+  }
+
+  &-category-header {
+    padding-bottom: 5rem;
+    .section-category-btn-group {
+      &-icon-left {
+        margin-right: 1.5rem;
+        color: $clr-dark-6;
+        transition: $transition;
+        cursor: pointer;
+        &:hover {
+          color: $clr-primary;
+        }
+      }
+
+      &-content {
+        button {
+          margin: 0 1rem; 
+          border: none;
+          color: $clr-dark-6;
+          cursor: pointer;
+          background: transparent;
+          &:hover {
+            color: $clr-primary;
+          }
+        }
+      }
+
+      &-icon-right {
+        margin-left: 1.5rem;
+        color: $clr-dark-6;
+        transition: $transition;
+        cursor: pointer;
+        &:hover {
+          color: $clr-primary;
+        }
+      }
+    }
+  }
+}

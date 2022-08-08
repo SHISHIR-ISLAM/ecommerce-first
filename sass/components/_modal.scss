@@ -1,0 +1,110 @@
+.input-modal {    
+    position: fixed;
+    background: rgba(31, 214, 255, 0.38);
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 100vh;
+    z-index: 99; 
+    @include flexCenter;
+    opacity: 0;
+    visibility: hidden;
+    transition: .8s ease-in;
+
+    &.input-modal-active {
+        opacity: 1;
+        visibility: visible;
+
+        .input-modal-bg {
+            opacity: 1;
+        }
+
+    }
+
+    &-bg {
+        background: #fff;
+        padding: 3rem 1rem;
+        @include flexCenter;
+        flex-direction: column;
+        border-radius: 1rem;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        position: relative;
+        opacity: 0;
+        transition: .7s ease-in-out;
+
+        .modal-icon {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            
+            i {
+               font-size: 2.3rem;
+               cursor: pointer;
+               color: rgb(138, 138, 138);
+            }
+        }
+
+        
+        h2 {
+            font-size: 2.2rem;
+            font-weight: 500;
+            text-align: center;
+            color: rgb(83, 82, 82);
+
+        }
+    }
+
+    &-group {
+        text-align: center;
+
+        input[type="email"],
+        input[type="text"] {
+           border: 0;
+           background-color: #bea7a7; 
+           padding: .3rem 1rem;
+           width: 35%; 
+           border-radius: .5rem;
+           margin: 3rem 1rem;
+           box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+           border: 1px solid transparent;
+
+
+            &:focus {
+                outline: none;
+                border: 1px solid rgb(88, 88, 88);
+            }
+
+        }
+        
+        ::placeholder {
+         color: rgb(250, 250, 250);
+        }
+
+        
+        input[type="submit"] {
+            display: block;
+            margin: auto;
+            background: rgb(184, 182, 182);
+            padding: 0.3rem 3rem;
+            font-weight: 500;
+            outline: none;
+            border: none;
+            border-radius: 3px;
+            color: #777;
+            position: relative;
+            transition: $transition;
+
+            &:active {
+                transform: scale(1.1);
+            }
+
+            &:hover {
+                color: rgb(255, 255, 255);
+                background: rgb(213, 142, 61);
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+            }
+        }
+
+    }
+
+}

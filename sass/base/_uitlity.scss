@@ -1,0 +1,43 @@
+
+// bg 
+.bg-secondary {
+    background: $clr-secondary !important;  
+}
+
+.bg-primary {
+    background: $clr-primary !important;
+}
+
+.bg-accent {
+    background: $clr-accent !important;
+}
+
+.bg-dark-white {
+    background: #F9F9F9 !important;
+}
+
+
+
+// text-color 
+.text-secondary {
+    color: $clr-secondary !important;     
+}
+
+.text-primary {
+    color: $clr-primary !important;
+}
+
+.text-accent {
+    color: $clr-accent !important;
+}
+
+// heading 
+.heading-sm {
+    font-size: 2rem;
+    font-weight: 600;
+    color: $clr-heading;
+}
+
+
+
+

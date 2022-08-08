@@ -1,0 +1,21 @@
+.btn {
+    @include btn;
+    position: relative;
+    z-index: 1;
+    @include bgColor;
+
+    &::after {
+        left: 50%;
+        top: 100%;
+    }
+    
+    &:hover {
+        color: #e4e4e4 !important;
+
+        &::after {
+           transform: scale(50);
+            background: #ff2ec7; 
+        }
+    }
+
+}

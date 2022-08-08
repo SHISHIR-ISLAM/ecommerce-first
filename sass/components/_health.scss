@@ -1,0 +1,29 @@
+.section {
+  &-health {
+    .container {
+      background: url(../../dist/images/helth/1.png) no-repeat center / cover;
+      border-radius: 1.4rem;
+    }
+    &-content {
+      padding: 9rem 0 9rem 10rem; 
+      h2 {
+        font-size: 4.5rem;
+        margin-bottom: 1.5rem;
+      }
+      p {
+        margin-bottom: 3rem;
+        max-width: 40rem;
+      }
+    }
+  }
+
+  &-fresh {
+    .container {
+      background: url(../../dist/images/helth/2.png) no-repeat center / cover;
+
+      h2 {
+        max-width: 35rem;
+      }
+    }
+  }
+}

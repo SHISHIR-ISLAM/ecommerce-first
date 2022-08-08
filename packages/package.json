@@ -1,0 +1,21 @@
+{
+  "name": "packages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w ../sass/ -o ../dist/css --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.2",
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0",
+    "node-sass": "^7.0.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "mixitup": "^3.3.1"
+  }
+}

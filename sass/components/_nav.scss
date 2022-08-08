@@ -1,0 +1,43 @@
+.navbar {
+  &-brand {
+    padding: 3rem 0;
+  }
+
+  &-nav {
+    .nav-item {
+      &:not(:last-child) {
+        margin-right: 4.5rem;
+      }
+
+      .nav-link {
+        color: $clr-dark-2 !important;
+        font-weight: 500 !important;
+        &.active {
+          color: $clr-secondary !important;
+        }
+
+        &:hover {
+          color: $clr-secondary !important;
+        }
+      }
+    }
+  }
+
+
+  .search-group {
+
+    &-items {
+        .search-group-icon {
+
+          i {
+            cursor: pointer;
+            transition: $transition;
+
+                &:hover {
+                    color: $clr-primary;
+                }
+            }
+        }
+    }
+  }
+}

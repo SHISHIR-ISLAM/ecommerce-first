@@ -1,0 +1,47 @@
+// component
+@import '../components/header';
+@import '../components/nav'; 
+@import '../components/showcase'; 
+
+
+
+// components 
+.section {
+
+    &-showcase {
+        padding: 15rem 0;
+        background: $clr-light-8; 
+    }
+
+
+    &-support {
+        padding: 6.5rem 0;
+    }
+ 
+    &-fruit {
+        padding: $section-padding;
+    }
+
+    &-feature {
+        padding: $section-padding;
+    }
+
+    &-natural {
+        padding: $section-padding;
+    }
+
+    &-health {
+        padding: $section-padding;
+    }
+
+    &-deal {
+        padding: $section-padding; 
+    }
+
+}
+
+
+
+
+
+

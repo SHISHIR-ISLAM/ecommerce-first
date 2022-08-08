@@ -1,0 +1,23 @@
+// arrow 
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background: $clr-primary;
+    z-index: 9;
+    @include flexCenter;
+    cursor: pointer;
+    color: $clr-light;
+
+    &.fruit-arrow-left {
+        left: -1.5rem;
+    }
+
+    &.fruit-arrow-right {
+        right: -1.5rem; 
+    }
+
+}

@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- custom link  -->
+    <link
+      rel="stylesheet"
+      href="../packages/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome  -->
+    <link
+      rel="stylesheet"
+      href="../packages/node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <!-- slick  -->
+    <link
+      rel="stylesheet"
+      href="../packages/node_modules/slick-carousel/slick/slick.css"
+    />
+
+    <!-- style link  -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>E-commerce Website</title>
+  </head>
+  <body>
+    <header class="bg-secondary header">
+      <div class="container">
+        <div class="header-home-top">
+          <p class="text-white">Welcome To Our Organsio Store.</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- nav  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/nav/Organic.png" alt="navbar logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+          aria-controls="navbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav me-auto mx-auto mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="acces.html.html#home">Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="category.html#home">Category</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shope.html#home">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html.html#home">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html#home">Faqs</a>
+            </li>
+          </ul>
+          <div class="search-group">
+            <div class="search-group-items d-flex sarch-group">
+              <div class="search-group-icon me-4 text-dark modal-card">
+                <i class="fa-solid fa-bag-shopping"></i>
+              </div>
+              <div class="search-group-icon text-secondary">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- modal  -->
+    <div class="input-modal">
+      <div class="input-modal-bg">
+        <div class="modal-icon">
+          <i class="fa-solid fa-circle-xmark"></i>
+        </div>
+        <h2>Shopping Here</h2>
+        <div class="input-modal-group">
+          <input type="text" class="input-text" required placeholder="Name" />
+          <input
+            type="email"
+            class="input-email"
+            required
+            placeholder="Email"
+          />
+          <input type="submit" />
+        </div>
+      </div>
+    </div>
+
+    <!-- showcase  -->
+    <main>
+      <section class="section-showcase">
+        <div class="container">
+          <div class="section-showcase-content">
+            <h1>ORGANIC FLAVORS FROM <span class="text-primary">FARM</span></h1>
+            <p>
+              Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit
+              amet,consectetur adipiscing elit.
+            </p>
+            <a href="#" class="btn bg-primary text-white">Shop Now</a>
+          </div>
+        </div>
+        <div class="section-showcase-img"></div>
+      </section>
+
+      <!-- support  -->
+      <section class="section-support">
+        <div class="container">
+          <div
+            class="section-support-content row gx-3 justify-content-between text-center"
+          >
+            <div class="section-support-item col-md-3 col-sm-6">
+              <img src="images/suport/1.svg" alt="support icon" />
+              <h3>Discount</h3>
+              <p>Every Weeks new sales</p>
+            </div>
+            <div class="section-support-item col-md-3 col-sm-6">
+              <img src="images/suport/2.svg" alt="support icon" />
+              <h3>Support 24/7</h3>
+              <p>Dedicated support</p>
+            </div>
+            <div class="section-support-item col-md-3 col-sm-6">
+              <img src="images/suport/3.svg" alt="support icon" />
+              <h3>Free Delivery</h3>
+              <p>For all orders over $99</p>
+            </div>
+            <div class="section-support-item col-md-3 col-sm-6">
+              <img src="images/suport/4.svg" alt="support icon" />
+              <h3>Secure Payment</h3>
+              <p>100% Secure payment</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- fruit  -->
+      <section class="section-fruit">
+        <div class="container">
+          <div class="section-fruit-inner">
+            <div class="arrow fruit-arrow-left">
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div class="arrow fruit-arrow-right">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+
+            <div class="section-fruit-content">
+              <div class="section-fruit-content-item">
+                <img src="images/fruit/1.png" alt="fruit items" />
+                <h4>Fruit</h4>
+              </div>
+              <div class="section-fruit-content-item">
+                <img src="images/fruit/2.png" alt="fruit items" />
+                <h4>Tomato</h4>
+              </div>
+              <div class="section-fruit-content-item">
+                <img src="images/fruit/3.png" alt="fruit items" />
+                <h4>Vegetable</h4>
+              </div>
+              <div class="section-fruit-content-item">
+                <img src="images/fruit/4.png" alt="fruit items" />
+                <h4>Lemon</h4>
+              </div>
+              <div class="section-fruit-content-item">
+                <img src="images/fruit/5.png" alt="fruit items" />
+                <h4>Fruit</h4>
+              </div>
+              <div class="section-fruit-content-item">
+                <img src="images/fruit/6.png" alt="fruit items" />
+                <h4>Onion</h4>
+              </div>
+              <div class="section-fruit-content-item">
+                <img src="images/fruit/1.png" alt="fruit items" />
+                <h4>Fruit</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- feature  -->
+      <section class="section-feature section-padding">
+        <div class="container">
+          <header class="section-header">
+            <h2>Featured Products</h2>
+          </header>
+
+          <div class="section-feature-content justify-content-center row gx-5 gy-4">
+            <div class="section-feature-content-item col-md-4 col-sm-6"> 
+              <div class="section-feature-content-item-img">
+                <img src="images/feature/1.png" alt="fruits images" />
+                <div class="section-feature-content-item-img-overly">
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrows-rotate"></i></a>
+                  <a href="#"><i class="fa-solid fa-lock"></i></a>
+                </div>
+              </div>
+              <div class="section-feature-content-item-icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="section-item-content-item-text">
+                <p>$8.00-$9.00</p>
+                <h4>Organic Fresh Vegetables</h4>
+              </div>
+            </div>
+            <div class="section-feature-content-item col-md-4 col-sm-6"> 
+              <div class="section-feature-content-item-img">
+                <img src="images/feature/2.png" alt="fruits images" />
+                <div class="section-feature-content-item-img-overly">
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrows-rotate"></i></a>
+                  <a href="#"><i class="fa-solid fa-lock"></i></a>
+                </div>
+              </div>
+              <div class="section-feature-content-item-icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="section-item-content-item-text">
+                <p>$8.00-$9.00</p>
+                <h4>Organic Fresh Vegetables</h4>
+              </div>
+            </div>
+            <div class="section-feature-content-item col-md-4 col-sm-6"> 
+              <div class="section-feature-content-item-img">
+                <img src="images/feature/3.png" alt="fruits images" />
+                <div class="section-feature-content-item-img-overly">
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrows-rotate"></i></a>
+                  <a href="#"><i class="fa-solid fa-lock"></i></a>
+                </div>
+              </div>
+              <div class="section-feature-content-item-icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="section-item-content-item-text">
+                <p>$8.00-$9.00</p>
+                <h4>Organic Fresh Vegetables</h4>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section class="section-natural">
+        <div class="container"> 
+          <header class="section-header">
+              <h2>Why Choose Us</h2>
+          </header>
+
+          <div class="section-natural-content justify-content-center g-5 row">
+              <div class="col-md-4 col-sm-6">
+                <div class="section-natural-content-img">
+                  <img src="images/natural/1.png" alt="natural logo">
+                </div>
+                <h4 class="heading-sm">100% Natural</h4>
+                <p>
+                  Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet,consectetur.</p>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="section-natural-content-img">
+                  <img src="images/natural/2.png" alt="natural logo">
+                </div>
+                <h4 class="heading-sm">Fresh Vegetables</h4>
+                <p>
+                  Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet,consectetur.</p>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="section-natural-content-img">
+                  <img src="images/natural/3.png" alt="natural logo">
+                </div>
+                <h4 class="heading-sm">Organic Farming</h4>
+                <p>
+                  Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet,consectetur.</p>
+              </div>
+          </div>
+
+        </div>
+      </section>  
+      
+      <!-- health -->
+      <section class="section-health">
+        <div class="container">
+          <div class="section-health-content">
+              <h2>Fruits For Live Healthy</h2>
+              <p>Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+              <a href="#" class="btn bg-secondary text-white">Shop Now</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-category">
+        <div class="container">
+          <header class="section-category-header d-flex justify-content-between align-items-center">
+            <h2>All Category Product</h2>
+            <div class="section-category-btn-group d-flex align-items-center">
+              <div class="section-category-btn-group-icon-left">
+                <i class="fa-solid fa-arrow-left"></i>
+              </div>
+              <div class="section-category-btn-group-content">
+                  <button data-filter="all">Vegetables</button>
+                  <button data-filter=".cetagory-a">Food</button>
+                  <button data-filter=".cetagory-b">Fruits</button>
+                  <button data-filter=".cetagory-c">Organic</button>  
+                  <button data-filter=".cetagory-d">Elementum</button>                       
+              </div>
+              <div class="section-category-btn-group-icon-right">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </header>
+
+          <div class="section-feature-content section-category text-center row gx-5 gy-4">
+            <div class="col-md-4 col-sm-6 mix category-a category-d"> 
+              <div class="section-feature-content-item-img">
+                <img src="images/cetagory/1.png" alt="fruits images" />
+                <div class="section-feature-content-item-img-overly">
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrows-rotate"></i></a>
+                  <a href="#"><i class="fa-solid fa-lock"></i></a>
+                </div>
+              </div>
+              <div class="section-feature-content-item-icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="section-item-content-item-text">
+                <p>$8.00-$9.00</p>
+                <h4>Organic Fresh Vegetables</h4>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mix cetagory-c cetagory-b"> 
+              <div class="section-feature-content-item-img">
+                <img src="images/cetagory/2.png" alt="fruits images" />
+                <div class="section-feature-content-item-img-overly">
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrows-rotate"></i></a>
+                  <a href="#"><i class="fa-solid fa-lock"></i></a>
+                </div>
+              </div>
+              <div class="section-feature-content-item-icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="section-item-content-item-text">
+                <p>$8.00-$9.00</p>
+                <h4>Organic Fresh Vegetables</h4>
+              </div>
+            </div>
+            <div class=" col-md-4 col-sm-6 mix cetagory-d cetagory-a"> 
+              <div class="section-feature-content-item-img">
+                <img src="images/cetagory/3.png" alt="fruits images" />
+                <div class="section-feature-content-item-img-overly">
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrows-rotate"></i></a>
+                  <a href="#"><i class="fa-solid fa-lock"></i></a>
+                </div>
+              </div>
+              <div class="section-feature-content-item-icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="section-item-content-item-text">
+                <p>$8.00-$9.00</p>
+                <h4>Organic Fresh Vegetables</h4>
+              </div>
+            </div>
+            <div class=" col-md-4 col-sm-6 mix cetagory-c cetagory-d"> 
+              <div class="section-feature-content-item-img">
+                <img src="images/cetagory/4.png" alt="fruits images" />
+                <div class="section-feature-content-item-img-overly">
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrows-rotate"></i></a>
+                  <a href="#"><i class="fa-solid fa-lock"></i></a>
+                </div>
+              </div>
+              <div class="section-feature-content-item-icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="section-item-content-item-text">
+                <p>$8.00-$9.00</p>
+                <h4>Organic Fresh Vegetables</h4>
+              </div>
+            </div>
+            <div class=" col-md-4 col-sm-6 mix cetagory-a cetagory-d"> 
+              <div class="section-feature-content-item-img">
+                <img src="images/cetagory/5.png" alt="fruits images" />
+                <div class="section-feature-content-item-img-overly">
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrows-rotate"></i></a>
+                  <a href="#"><i class="fa-solid fa-lock"></i></a>
+                </div>
+              </div>
+              <div class="section-feature-content-item-icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="section-item-content-item-text">
+                <p>$8.00-$9.00</p>
+                <h4>Organic Fresh Vegetables</h4>
+              </div>
+            </div>
+            <div class=" col-md-4 col-sm-6 mix cetagory-c cetagory-d"> 
+              <div class="section-feature-content-item-img">
+                <img src="images/cetagory/6.png" alt="fruits images" />
+                <div class="section-feature-content-item-img-overly">
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrows-rotate"></i></a>
+                  <a href="#"><i class="fa-solid fa-lock"></i></a>
+                </div>
+              </div>
+              <div class="section-feature-content-item-icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="section-item-content-item-text">
+                <p>$8.00-$9.00</p>
+                <h4>Organic Fresh Vegetables</h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section-deal">
+        <div class="container">
+          <div class="section-deal-content d-flex justify-content-between align-items-center">
+            <h2 class="section-heading">Deal of the week</h2>
+
+            <div class="section-deal-content-items d-flex justify-content-around align-items-center">
+                <div class="section-deal-content-items-item d-flex justify-content-center flex-column text-center bg-primary text-white">
+                  <span class="heading-sm day text-white">45</span>
+                  <span class="heading-sm text-white">Days</span>
+                </div>
+                <div class="section-deal-content-items-item d-flex justify-content-center flex-column text-center bg-dark-white text-white">
+                  <span class="heading-sm hour text-primary">45</span>
+                  <span class="heading-sm text-primary">Hours</span>
+                </div>
+                <div class="section-deal-content-items-item d-flex justify-content-center flex-column text-center bg-primary text-white">
+                  <span class="heading-sm min text-white">45</span>
+                  <span class="heading-sm text-white">Min</span>
+                </div>
+                <div class="section-deal-content-items-item d-flex justify-content-center flex-column text-center bg-dark-white">
+                  <span class="heading-sm sec text-primary">45</span>
+                  <span class="heading-sm text-primary">Sec</span>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- flesh section  -->
+      <section class="section-fresh">
+        <div class="container">
+          <div class="section-health-content">
+              <h2>Fresh vegetable &
+                Fruit basket</h2>
+              <p>Fresh Packed to order.</p>
+              <a href="#" class="btn bg-secondary text-white">Shop Now</a>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+
+    <!-- script link  -->
+    <script src="../packages/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../packages/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- mixitup -->
+    <script src="../packages/node_modules/mixitup/dist/mixitup.min.js"></script>
+    <!-- slick  -->
+    <script src="../packages/node_modules/slick-carousel/slick/slick.min.js"></script>
+    <!-- javascript  -->
+    <script src="js/app.js"></script>
+  </body>
+</html>

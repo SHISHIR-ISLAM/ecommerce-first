@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- custom link  -->
+    <link
+      rel="stylesheet"
+      href="../packages/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="../packages/node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>E-commerce Website</title>
+  </head>
+  <body>
+    <header class="bg-secondary header">
+      <div class="container">
+        <div class="header-home-top">
+          <p class="text-white">Welcome To Our Organsio Store.</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- nav  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/nav/Organic.png" alt="navbar logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+          aria-controls="navbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav me-auto mx-auto mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="acces.html.html#home">Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="category.html#home">Category</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shope.html#home">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html.html#home">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html#home">Faqs</a>
+            </li>
+          </ul>
+          <div class="search-group">
+            <div class="search-group-items d-flex sarch-group">
+              <div class="search-group-icon me-4 text-dark modal-card">
+                <i class="fa-solid fa-bag-shopping"></i>
+              </div>
+              <div class="search-group-icon text-secondary">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- modal  -->
+    <div class="input-modal">
+      <div class="input-modal-bg">
+        <div class="modal-icon">
+          <i class="fa-solid fa-circle-xmark"></i>
+        </div>
+        <h2>Shopping Here</h2>
+        <div class="input-modal-group">
+          <input type="text" class="input-text" required placeholder="Name" />
+          <input
+            type="email"
+            class="input-email"
+            required
+            placeholder="Email"
+          />
+          <input type="submit" />
+        </div>
+      </div>
+    </div>
+
+    <!-- showcase  -->
+    <main>
+      <section class="section-showcase">
+        <div class="container">
+          <div class="section-showcase-content">
+            <h1>ORGANIC FLAVORS FROM <span class="text-primary">FARM</span></h1>
+            <p>
+              Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit
+              amet,consectetur adipiscing elit.
+            </p>
+            <a href="#" class="btn bg-primary text-white">Shop Now</a>
+          </div>
+        </div>
+        <div class="section-showcase-img"></div>
+      </section>
+
+      <section class="section-support">
+        <div class="container">
+          <div
+            class="section-support-content row g-3 justify-content-between text-center"
+          >
+            <div class="section-support-item col-md-3 col-sm-6">
+              <img src="images/suport/1.svg" alt="support icon" />
+              <h3>Discount</h3>
+              <p>Every Weeks new sales</p>
+            </div>
+            <div class="section-support-item col-md-3 col-sm-6">
+              <img src="images/suport/2.svg" alt="support icon" />
+              <h3>Support 24/7</h3>
+              <p>Dedicated support</p>
+            </div>
+            <div class="section-support-item col-md-3 col-sm-6">
+              <img src="images/suport/3.svg" alt="support icon" />
+              <h3>Free Delivery</h3>
+              <p>For all orders over $99</p>
+            </div>
+            <div class="section-support-item col-md-3 col-sm-6">
+              <img src="images/suport/4.svg" alt="support icon" />
+              <h3>Secure Payment</h3>
+              <p>100% Secure payment</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- products  -->
+      <div class="section-products">
+        <div class="container">
+          <div class="section-products-groups row g-4">
+            <div class="col-md-3">
+              <div class="row">
+                <div class="col">
+                  <div class="section-products-groups-btn">
+                    <a class="">
+                      <span><img src="images/produts/icon/1.png" alt="icon"></span>
+                      <span>Vegetable</span>
+                    </a>
+                    <a class="">
+                      <span><img src="images/produts/icon/2.png" alt="icon"></span>
+                      <span>Fruits</span>
+                    </a>
+                    <a class="">
+                      <span><img src="images/produts/icon/3.png" alt="icon"></span>
+                      <span>Green Vegetable</span>
+                    </a>
+                    <a class="">
+                      <span><img src="images/produts/icon/4.png" alt="icon"></span>
+                      <span>Onion</span>
+                    </a>
+                    <a class="">
+                      <span><img src="images/produts/icon/5.png" alt="icon"></span>
+                      <span>Vegetable</span>
+                    </a>
+                    <a class="">
+                      <span><img src="images/produts/icon/6.png" alt="icon"></span>
+                      <span>Lemon</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="section-products-groups-content row g-3">
+                <div class="col-md-4">
+                  <div class="section-products-groups-content-items">
+                    <div class="section-products-groups-content-items-img">
+                      <img src="images/produts/1.png" alt="products images" />
+                      <div
+                        class="section-products-groups-content-items-img-icon"
+                      >
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="section-products-groups-content-items-text">
+                      <h4>Organic Vegetables</h4>
+                      <p>$8.00-9.00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="section-products-groups-content-items">
+                    <div class="section-products-groups-content-items-img">
+                      <img src="images/produts/2.png" alt="products images" />
+                      <div
+                        class="section-products-groups-content-items-img-icon"
+                      >
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="section-products-groups-content-items-text">
+                      <h4>Organic Vegetables</h4>
+                      <p>$8.00-9.00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="section-products-groups-content-items">
+                    <div class="section-products-groups-content-items-img">
+                      <img src="images/produts/3.png" alt="products images" />
+                      <div
+                        class="section-products-groups-content-items-img-icon"
+                      >
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="section-products-groups-content-items-text">
+                      <h4>Organic Vegetables</h4>
+                      <p>$8.00-9.00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="section-products-groups-content row g-3">
+                <div class="col-md-4">
+                  <div class="section-products-groups-content-items">
+                    <div class="section-products-groups-content-items-img">
+                      <img src="images/produts/4.png" alt="products images" />
+                      <div
+                        class="section-products-groups-content-items-img-icon"
+                      >
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="section-products-groups-content-items-text">
+                      <h4>Organic Vegetables</h4>
+                      <p>$8.00-9.00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="section-products-groups-content-items">
+                    <div class="section-products-groups-content-items-img">
+                      <img src="images/produts/5.png" alt="products images" />
+                      <div
+                        class="section-products-groups-content-items-img-icon"
+                      >
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="section-products-groups-content-items-text">
+                      <h4>Organic Vegetables</h4>
+                      <p>$8.00-9.00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="section-products-groups-content-items">
+                    <div class="section-products-groups-content-items-img">
+                      <img src="images/produts/6.png" alt="products images" />
+                      <div
+                        class="section-products-groups-content-items-img-icon"
+                      >
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="section-products-groups-content-items-text">
+                      <h4>Organic Vegetables</h4>
+                      <p>$8.00-9.00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="section-products-groups-content row g-3">
+                <div class="col-md-4">
+                  <div class="section-products-groups-content-items">
+                    <div class="section-products-groups-content-items-img">
+                      <img src="images/produts/7.png" alt="products images" />
+                      <div
+                        class="section-products-groups-content-items-img-icon"
+                      >
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="section-products-groups-content-items-text">
+                      <h4>Organic Vegetables</h4>
+                      <p>$8.00-9.00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="section-products-groups-content-items">
+                    <div class="section-products-groups-content-items-img">
+                      <img src="images/produts/8.png" alt="products images" />
+                      <div
+                        class="section-products-groups-content-items-img-icon"
+                      >
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="section-products-groups-content-items-text">
+                      <h4>Organic Vegetables</h4>
+                      <p>$8.00-9.00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="section-products-groups-content-items">
+                    <div class="section-products-groups-content-items-img">
+                      <img src="images/produts/10.png" alt="products images" />
+                      <div
+                        class="section-products-groups-content-items-img-icon"
+                      >
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="section-products-groups-content-items-text">
+                      <h4>Organic Vegetables</h4>
+                      <p>$8.00-9.00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="section-products-groups-content row g-3">
+                <div class="col-md-4">
+                  <div class="section-products-groups-content-items">
+                    <div class="section-products-groups-content-items-img">
+                      <img src="images/produts/9.png" alt="products images" />
+                      <div
+                        class="section-products-groups-content-items-img-icon"
+                      >
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="section-products-groups-content-items-text">
+                      <h4>Organic Vegetables</h4>
+                      <p>$8.00-9.00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="section-products-groups-content-items">
+                    <div class="section-products-groups-content-items-img">
+                      <img src="images/produts/11.png" alt="products images" />
+                      <div
+                        class="section-products-groups-content-items-img-icon"
+                      >
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="section-products-groups-content-items-text">
+                      <h4>Organic Vegetables</h4>
+                      <p>$8.00-9.00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="section-products-groups-content-items">
+                    <div class="section-products-groups-content-items-img">
+                      <img src="images/produts/12.png" alt="products images" />
+                      <div
+                        class="section-products-groups-content-items-img-icon"
+                      >
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="section-products-groups-content-items-text">
+                      <h4>Organic Vegetables</h4>
+                      <p>$8.00-9.00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- script link  -->
+    <script src="../packages/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

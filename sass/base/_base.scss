@@ -1,0 +1,66 @@
+// base 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+
+body {
+    font-size: 1.6rem;
+    background: #fff;
+    color: #111;
+    font-family: $font;
+    font-weight: normal;
+    transition: all 0.5s ease-in-out;
+    // line-height: 1.7rem;
+}
+
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+img {
+    width: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+ 
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+    margin-bottom: 1rem;
+}
+
+
+.container {
+    max-width: $max-width;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+
+
+
+
+
+
+

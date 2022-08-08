@@ -1,0 +1,16 @@
+@media (max-width: 576px) {
+  .section {
+    &-fruit-inner {
+      .arrow {
+        display: none !important;
+      }
+    }
+
+    &-category-header {
+      padding-bottom: 2rem !important;
+      .section-category-btn-group {
+          display: none;
+      }
+    }
+  }
+}

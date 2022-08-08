@@ -1,0 +1,8 @@
+.grid {
+    display: grid;
+}
+
+
+.grid_3x {
+    grid-template-columns: repeat(3, 1fr);
+}

@@ -1,0 +1,23 @@
+// component
+@import '../components/header';
+@import '../components/nav'; 
+@import '../components/showcase'; 
+
+
+
+// components 
+.section {
+
+    &-showcase {
+        padding: 15rem 0;
+        background: $clr-light-8; 
+    }
+
+
+    &-support {
+        padding: 12rem 0;
+    }
+
+
+
+}
